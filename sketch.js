@@ -27,7 +27,7 @@ function draw() {
   clear();
   background(0);
 
-  let size = floor(map(mouseX, 0, width, 7, 40)); // maps mouseX value to element size
+  let size = floor(map(mouseY, 0, width, 7, 40)); // maps mouseX value to element size
 
   for (var starty = 0; starty < img.height; starty++) { // creates pixel index
     for (var startx = 0; startx < img.width; startx++) {
